@@ -128,7 +128,7 @@ dependencies {
     implementation(libs.apollo.graphql)
 
 
-    version = System.getenv("GITHUB_VERSION") ?: "v20"
+    version = System.getenv("GITHUB_VERSION") ?: "v32"
 
     api("com.fysiki:trainingkit:$version")
 

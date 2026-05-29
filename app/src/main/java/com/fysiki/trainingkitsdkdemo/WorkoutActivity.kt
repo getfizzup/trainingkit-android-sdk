@@ -22,12 +22,12 @@ import com.fysiki.trainingkit.GoAction
 import com.fysiki.trainingkit.fragments.GoFragment
 import com.fysiki.trainingkit.interfaces.TrainingKitInterface
 import com.fysiki.trainingkit.states.SaveWorkoutState
-import com.fysiki.trainingkit.utils.CustomTextProvider
 import com.fysiki.trainingkit.utils.DispatcherUtils
 import com.fysiki.trainingkit.utils.JWTVerificationException
 import com.fysiki.trainingkit.utils.Tracking
 import com.fysiki.trainingkit.utils.WorkoutConfiguration
 import com.fysiki.trainingkit.utils.download.FizzupAssetPackLocation
+import com.fysiki.trainingkit.models.MusicPlaylist
 import com.fysiki.trainingkitsdkdemo.databinding.ActivityWorkoutBinding
 import org.jdeferred.Promise
 import org.jdeferred.impl.DeferredObject
@@ -121,7 +121,13 @@ class WorkoutActivity : AppCompatActivity(), TrainingKitInterface {
     override fun displayCheckout() {
     }
 
-    override fun fetchAllRecommendations() {
+    override fun enableMusicStyle(value: Any?) {
+    }
+
+    override fun disableMusicStyle(value: Any?) {
+    }
+
+    override fun fetchAllRecommendations(unlockedBlockId: String?) {
     }
 
     override fun getAssetsPromise(): Promise<FizzupAssetPackLocation, Void, Double>? {
@@ -133,6 +139,10 @@ class WorkoutActivity : AppCompatActivity(), TrainingKitInterface {
         val promise: Promise<ArrayList<File>, Void, Double> = deferred.promise()
         deferred.resolve(arrayListOf())
         return promise
+    }
+
+    override fun getAvailablePlaylists(): ArrayList<MusicPlaylist> {
+        return arrayListOf()
     }
 
     override fun onTokenVerificationError(exception: JWTVerificationException) {
