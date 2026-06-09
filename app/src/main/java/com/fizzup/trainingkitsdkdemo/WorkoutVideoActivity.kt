@@ -1,4 +1,4 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import android.content.Context
 import android.content.Intent
@@ -17,13 +17,13 @@ import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.appcompat.app.AlertDialog
-import com.fysiki.trainingkit.GoAction
-import com.fysiki.trainingkit.fragments.WorkoutVideoFragment
-import com.fysiki.trainingkit.interfaces.WorkoutVideoKitInterface
-import com.fysiki.trainingkit.states.SaveWorkoutState
-import com.fysiki.trainingkit.utils.DispatcherUtils
-import com.fysiki.trainingkit.utils.JWTVerificationException
-import com.fysiki.trainingkitsdkdemo.databinding.ActivityWorkoutBinding
+import com.fizzup.trainingkit.GoAction
+import com.fizzup.trainingkit.fragments.WorkoutVideoFragment
+import com.fizzup.trainingkit.interfaces.WorkoutVideoKitInterface
+import com.fizzup.trainingkit.states.SaveWorkoutState
+import com.fizzup.trainingkit.utils.DispatcherUtils
+import com.fizzup.trainingkit.utils.JWTVerificationException
+import com.fizzup.trainingkitsdkdemo.databinding.ActivityWorkoutBinding
 import org.jdeferred.Promise
 import org.jdeferred.impl.DeferredObject
 import org.json.JSONObject

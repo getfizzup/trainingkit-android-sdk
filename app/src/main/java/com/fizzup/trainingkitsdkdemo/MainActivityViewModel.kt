@@ -1,4 +1,4 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.apollographql.apollo.api.toJson
-import com.fysiki.trainingkitsdkdemo.type.WorkoutFormat
-import com.fysiki.trainingkitsdkdemo.type.WorkoutType
+import com.fizzup.trainingkitsdkdemo.type.WorkoutFormat
+import com.fizzup.trainingkitsdkdemo.type.WorkoutType
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

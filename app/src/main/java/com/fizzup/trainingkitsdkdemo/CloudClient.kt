@@ -1,10 +1,10 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import android.content.Context
 import android.os.Build
 import com.apollographql.apollo.ApolloClient
 import com.apollographql.apollo.network.okHttpClient
-import com.fysiki.trainingkit.utils.DeviceIdHelper
+import com.fizzup.trainingkit.utils.DeviceIdHelper
 import okhttp3.OkHttpClient
 
 

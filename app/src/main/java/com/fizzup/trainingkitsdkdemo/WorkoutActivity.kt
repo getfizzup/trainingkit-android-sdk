@@ -1,4 +1,4 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import android.content.Context
 import android.content.Intent
@@ -18,17 +18,17 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.fysiki.trainingkit.GoAction
-import com.fysiki.trainingkit.fragments.GoFragment
-import com.fysiki.trainingkit.interfaces.TrainingKitInterface
-import com.fysiki.trainingkit.states.SaveWorkoutState
-import com.fysiki.trainingkit.utils.DispatcherUtils
-import com.fysiki.trainingkit.utils.JWTVerificationException
-import com.fysiki.trainingkit.utils.Tracking
-import com.fysiki.trainingkit.utils.WorkoutConfiguration
-import com.fysiki.trainingkit.utils.download.FizzupAssetPackLocation
-import com.fysiki.trainingkit.models.MusicPlaylist
-import com.fysiki.trainingkitsdkdemo.databinding.ActivityWorkoutBinding
+import com.fizzup.trainingkit.GoAction
+import com.fizzup.trainingkit.fragments.GoFragment
+import com.fizzup.trainingkit.interfaces.TrainingKitInterface
+import com.fizzup.trainingkit.states.SaveWorkoutState
+import com.fizzup.trainingkit.utils.DispatcherUtils
+import com.fizzup.trainingkit.utils.JWTVerificationException
+import com.fizzup.trainingkit.utils.Tracking
+import com.fizzup.trainingkit.utils.WorkoutConfiguration
+import com.fizzup.trainingkit.utils.download.FizzupAssetPackLocation
+import com.fizzup.trainingkit.models.MusicPlaylist
+import com.fizzup.trainingkitsdkdemo.databinding.ActivityWorkoutBinding
 import org.jdeferred.Promise
 import org.jdeferred.impl.DeferredObject
 import org.json.JSONObject

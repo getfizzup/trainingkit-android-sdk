@@ -1,4 +1,4 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -24,7 +24,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
-import com.fysiki.trainingkitsdkdemo.type.WorkoutFormat
+import com.fizzup.trainingkitsdkdemo.type.WorkoutFormat
 
 
 @OptIn(ExperimentalGlideComposeApi::class)

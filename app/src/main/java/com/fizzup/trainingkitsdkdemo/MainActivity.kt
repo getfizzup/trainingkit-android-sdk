@@ -1,4 +1,4 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -28,8 +28,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.fysiki.trainingkit.TrainingKit
-import com.fysiki.trainingkitsdkdemo.type.WorkoutFormat
+import com.fizzup.trainingkit.TrainingKit
+import com.fizzup.trainingkitsdkdemo.type.WorkoutFormat
 import org.json.JSONObject
 
 class MainActivity : ComponentActivity() {

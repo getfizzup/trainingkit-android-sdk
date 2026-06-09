@@ -22,8 +22,8 @@
 
 
 -keepnames class com.google.common.** { *; }
--keep class com.fysiki.trainingkit.utils.wheelview.view.WheelView { *; }
--keep class com.fysiki.trainingkit.components.ExoPlayerRecyclerView { *; }
+-keep class com.fizzup.trainingkit.utils.wheelview.view.WheelView { *; }
+-keep class com.fizzup.trainingkit.components.ExoPlayerRecyclerView { *; }
 
 # Keep MediaRouter classes
 -keep class androidx.mediarouter.** { *; }

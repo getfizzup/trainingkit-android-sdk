@@ -1,7 +1,7 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import com.apollographql.apollo.api.ApolloResponse
-import com.fysiki.trainingkitsdkdemo.CloudClient.apolloClient
+import com.fizzup.trainingkitsdkdemo.CloudClient.apolloClient
 
 class WorkoutRepository {
 

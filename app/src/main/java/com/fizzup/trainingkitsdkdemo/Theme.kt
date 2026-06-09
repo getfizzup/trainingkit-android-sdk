@@ -1,4 +1,4 @@
-package com.fysiki.trainingkitsdkdemo
+package com.fizzup.trainingkitsdkdemo
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme

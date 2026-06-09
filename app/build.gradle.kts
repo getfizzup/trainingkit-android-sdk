@@ -8,12 +8,12 @@ plugins {
 }
 
 android {
-    namespace = "com.fysiki.trainingkitsdkdemo"
+    namespace = "com.fizzup.trainingkitsdkdemo"
     compileSdk = 34
     buildFeatures.buildConfig = true
 
     defaultConfig {
-        applicationId = "com.fysiki.trainingkitsdkdemo"
+        applicationId = "com.fizzup.trainingkitsdkdemo"
         minSdk = 21
         targetSdk = 35
         versionCode = System.getenv("GITHUB_VERSION_CODE")?.toInt() ?: 1
@@ -75,7 +75,7 @@ apollo {
     }
 
     service("service") {
-        packageName.set("com.fysiki.trainingkitsdkdemo")
+        packageName.set("com.fizzup.trainingkitsdkdemo")
 
         srcDir("src/main/graphql")
 
@@ -128,9 +128,9 @@ dependencies {
     implementation(libs.apollo.graphql)
 
 
-    version = System.getenv("GITHUB_VERSION") ?: "v32"
+    version = System.getenv("GITHUB_VERSION") ?: "v32.2"
 
-    api("com.fysiki:trainingkit:$version")
+    api("com.fizzup:trainingkit:$version")
 
     /************************************************************************************************
      * Use local aar file (Needs the import of all libraries used by TrainingKit)
