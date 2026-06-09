@@ -44,7 +44,7 @@ allprojects {
 Check the available library packages [here](https://github.com/orgs/getfizzup/packages?repo_name=trainingkit-android-sdk).
 ```gradle
 dependencies {
-    implementation 'com.fysiki:trainingkit:v19'
+    implementation 'com.fizzup:trainingkit:v32.2'
 }
 ```
 
@@ -57,10 +57,10 @@ dependencies {
 TrainingKit replaces the former WorkoutKit name. Existing integrations should update the public names used by Gradle and Kotlin:
 
 - Maven repository: `https://maven.pkg.github.com/getfizzup/trainingkit-android-sdk`
-- Maven artifact: `com.fysiki:trainingkit`
-- Kotlin package: `com.fysiki.trainingkit`
+- Maven artifact: `com.fizzup:trainingkit`
+- Kotlin package: `com.fizzup.trainingkit`
 - Main SDK entry point: `TrainingKit`
-- Demo app package: `com.fysiki.trainingkitsdkdemo`
+- Demo app package: `com.fizzup.trainingkitsdkdemo`
 
 After changing the dependency and imports, rebuild your app so generated sources such as Apollo, view binding, and data binding are recreated with the TrainingKit names.
 
