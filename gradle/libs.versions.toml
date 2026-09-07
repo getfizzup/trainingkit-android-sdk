@@ -1,10 +1,10 @@
 [versions]
 activityKtx = "1.9.0"
-agp = "8.7.3"
+agp = "9.3.2"
 compose = "1.0.0-beta01"
 datastorePreferences = "1.1.2"
 glide = "4.16.0"
-kotlin = "2.0.0"
+kotlin = "2.4.10"
 coreKtx = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -50,7 +50,7 @@ androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android", vers
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-fragment-compose = { group = "androidx.fragment", name = "fragment-compose", version.ref = "fragmentCompose" }
 
-apollo-graphql = { module = "com.apollographql.apollo:apollo-runtime", version = "4.1.1" }
+apollo-graphql = { module = "com.apollographql.apollo:apollo-runtime", version = "5.1.0" }
 runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
 
 [plugins]
@@ -59,4 +59,4 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 jetbrains-dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
-apollo-graphql = { id = "com.apollographql.apollo", version = "4.1.1" }
+apollo-graphql = { id = "com.apollographql.apollo", version = "5.1.0" }
